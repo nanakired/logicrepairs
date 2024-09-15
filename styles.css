@@ -9,7 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: Azure;
+    background-color: white;
     padding: 20px;
 }
 
@@ -51,6 +51,8 @@ header {
     padding: 40px 20px;
     border-radius: 8px;
     text-align: center;
+	box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
+
 }
 
 header h1 {
@@ -65,10 +67,10 @@ header p {
 
 /* Section Styling */
 section {
-    background-color: white;
+    background-color: gainsboro;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
  margin: 20px;
 }
         
@@ -82,13 +84,13 @@ section {
 
     position: relative;
     background-color: white;
-    border: 2px solid #ddd;
+    border: 0px solid #ddd;
     border-radius: 8px;
     padding: 10px;
     margin: 10px;
     width: 95%;
     height: 200px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+   box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
 }
 
         #services .service h3 {
@@ -108,6 +110,7 @@ section {
             color: white;
             font-size: 12px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+		padding: 10px;
         }
 
 
