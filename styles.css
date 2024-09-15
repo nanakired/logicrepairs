@@ -36,7 +36,7 @@ li {
 }
 
 a {
-    color: #e74c3c;
+    color: #295f98;
     text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ a:hover, a:focus {
 
 /* Header Styling */
 header {
-    background: linear-gradient(to right, #1abc9c, #2ecc71);
+    background: linear-gradient(to right, #fe7f00, #ff9b00);
     padding: 40px 20px;
     border-radius: 8px;
     text-align: center;
@@ -85,7 +85,7 @@ section {
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
-    width: calc(33% - 10px);
+    width: calc(45% - 10px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
         .service img {
@@ -113,7 +113,7 @@ input[type="text"], input[type="email"], textarea, input[type="file"] {
 }
 
 input[type="submit"] {
-    background-color: #e74c3c;
+    background-color: #295f98;
     color: white;
     padding: 14px 20px;
     border: none;
@@ -123,7 +123,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #c0392b;
+    background-color: #e74c3c;
 }
 
 /* Footer Styling */
@@ -144,6 +144,6 @@ footer {
     }
 
     section {
-        padding: 20px;
+        padding: 10px;
     }
 }
