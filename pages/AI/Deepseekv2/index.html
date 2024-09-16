@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Repair & Support</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Tech Repair & Support</h1>
+        <p>Your local repair and restoration service</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+  <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <img src="images/phone_repair.jpg" alt="Phone Repair">
+                <h3>Phone and Tablet Repairs</h3>
+                <p>We repair all types of phones and tablets, including iPhones, Androids, iPads, and more.</p>
+            </div>
+            <div class="service">
+                <img src="images/pc_building.jpg" alt="PC Building">
+                <h3>PC Building and Troubleshooting</h3>
+                <p>We build custom PCs and offer expert troubleshooting services for both Windows and Mac
+systems.</p>
+            </div>
+            <div class="service">
+                <img src="images/networking.jpg" alt="Networking Solutions">
+                <h3>Networking Solutions</h3>
+                <p>From home networks to enterprise solutions, we provide robust networking infrastructure and
+support.</p>
+            </div>
+            <div class="service">
+                <img src="images/software_support.jpg" alt="Software Support">
+                <h3>Software Support</h3>
+                <p>We offer technical support for a wide range of software, including Microsoft Office and Adobe
+Creative Suite.</p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a dedicated team of tech experts committed to providing the highest quality services for all
+your technology needs. With years of experience in the industry, we ensure that you receive reliable and efficient
+solutions.  This website is very much a work in progress and is an AI assisted build.</p>
+    </section>
+
+   <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question or need a service? Fill out the form below and we'll get back to you as soon as
+possible!</p>
+        <!-- Contact Form -->
+        <form action="submit_form.php" method="post" enctype="multipart/form-data">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="issue">Description of Issue:</label><br>
+            <textarea id="issue" name="issue" rows="4" cols="50"></textarea><br><br>
+
+            <label for="attachment">Attach Files (optional):</label>
+            <input type="file" id="attachment" name="attachment"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 NanakiRed. All rights reserved.</p>
+    </footer>
+</body>
+</html>
