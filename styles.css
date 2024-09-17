@@ -13,12 +13,13 @@ body {
     padding: 20px;
 }
 
-  nav {
-            display: flex;
-            justify-content: space-evenly;
-            background-color: #ffffff;
-            padding: 10px;
-        }
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
 
 header, section, footer {
     margin-bottom: 20px;
@@ -43,14 +44,18 @@ li {
 }
 
 a {
-    color: #295f98;
+    font-size: 18px;
+    color: darkslategray;
     text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-a:hover, a:focus {
-    color: #c0392b;
-    text-decoration: underline;
-}
+    a:hover, a:focus {
+        font-size: 18px;
+        color: crimson;
+        text-decoration: underline;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
 
 pre {
     background: #f4f4f4;
@@ -73,12 +78,15 @@ pre {
     width: 100%;
     line-height: 50px;
     background-color: gainsboro;
-    color: white;
     white-space: nowrap;
     overflow: hidden;
     box-sizing: border-box;
 }
 .marquee p {
+	font-size: 25px;
+    font-weight: bold;
+    color: darkslategray;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding-left: 100%;
     animation: marquee 12s linear infinite;
@@ -96,7 +104,7 @@ pre {
 /* Header Styling */
 header {
     background: linear-gradient(to right, darkslategray, cadetblue);
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     text-align: center;
     box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
@@ -113,7 +121,7 @@ header {
 
     header p {
         font-size: 18px;
-        color: rgba(255, 255, 255, 0.8);
+        color: white;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
@@ -155,16 +163,16 @@ section {
             color: snow;
             font-size: 14px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-	    padding: 10px;
+	        padding: 10px;
         }
 
 
-        #services .service img {
-	border: 1px solid #ddd;
+     #services .service img {
+	    border: 1px solid #ddd;
     	border-radius: 8px;
-	width: 100%;
-            height: 100%;
-            object-fit: fill;
+	    width: 100%;
+        height: 100%;
+        object-fit: fill;
         }
 
 
