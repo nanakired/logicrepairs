@@ -17,6 +17,7 @@ body {
             display: flex;
             justify-content: space-evenly;
             background-color: #ffffff;
+            padding: 10px;
         }
 
 header, section, footer {
@@ -87,10 +88,15 @@ pre {
     100% { transform: translate(-100%, 0); }
 }
 
+.divider {
+    height: 2px;
+    background: linear-gradient(to right, darkslategray, gainsboro, darkslategray);
+}
+
 /* Header Styling */
 header {
     background: linear-gradient(to right, darkslategray, cadetblue);
-    padding: 20px 10px;
+    padding: 20px;
     border-radius: 8px;
     text-align: center;
     box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
@@ -114,7 +120,7 @@ header {
 /* Section Styling */
 section {
     background-color: gainsboro;
-    padding: 10px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
  }
@@ -133,7 +139,7 @@ section {
 }
 
         #services .service h3 {
-	 position: absolute;
+	        position: absolute;
             top: 10px;
             left: 10px;
             color: white;
@@ -143,7 +149,7 @@ section {
         }
 
 	 #services .service p {
-	 position: absolute;
+	        position: absolute;
             top: 75px;
             left: 20px;
             color: snow;
