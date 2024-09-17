@@ -90,7 +90,7 @@ pre {
 
 .divider {
     height: 2px;
-    background: linear-gradient(to right, darkslategray, gainsboro, darkslategray);
+    background: linear-gradient(to right, gainboro, darkslategray, gainsboro);
 }
 
 /* Header Styling */
