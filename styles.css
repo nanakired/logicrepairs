@@ -16,8 +16,7 @@ body {
   nav {
             display: flex;
             justify-content: space-evenly;
-            background-color: white;
-	
+            background-color: #ffffff;
         }
 
 header, section, footer {
@@ -118,8 +117,6 @@ section {
     padding: 10px;
     border-radius: 8px;
     box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
-    margin: 10px;
-    justify-content: center;
  }
      
 
@@ -129,10 +126,10 @@ section {
     border: 0px solid #ddd;
     border-radius: 8px;
     padding: 10px;
-    margin: 20px;
-    width: 92%;
+    margin: 10px;
+    width: 95%;
     height: 240px;
-   box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
+    box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
 }
 
         #services .service h3 {
