@@ -103,12 +103,11 @@ pre {
 
 /* Header Styling */
 header {
-    background: linear-gradient(to right, darkslategray, cadetblue);
+    background: linear-gradient(to right, white ,darkslategray, black, darkslategray, white);
     padding: 10px;
     border-radius: 8px;
     text-align: center;
     box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
-    background-image: url(images/topbanner.jpg);
     background-position: left top;
     background-size: cover;
 }
