@@ -21,7 +21,7 @@ body {
 }
 
     .menu a {
-        font: monospace;
+        font-family: monospace;
         font-size: 22px;
         color: #678689;
         text-decoration: none;
@@ -29,7 +29,7 @@ body {
     }
 
         .menu a:hover, a:focus {
-            font: monospace;
+            font-family: monospace;
             font-size: 22px;
             color: #2d8783;
             text-decoration: none;
