@@ -8,18 +8,31 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: white;
+    background-color: #36474d;
     padding: 20px;
 }
 
-nav {
+.menu {
     display: flex;
-    justify-content: space-evenly;
-    background-color: #ffffff;
+    justify-content: space-around;
+    background-color: #36474d;
     padding: 10px;
     margin: 10px;
 }
+
+    .menu a {
+        font-size: 20px;
+        color: #678689;
+        text-decoration: none;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+        .menu a:hover, a:focus {
+            font-size: 20px;
+            color: #2d8783;
+            text-decoration: underline;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
 
 header, section, footer {
     margin-bottom: 20px;
@@ -31,7 +44,7 @@ h1, h2 {
 }
 
 p {
-    color: #666;
+    color: white;
 }
 
 ul {
@@ -45,7 +58,7 @@ li {
 
 a {
     font-size: 16px;
-    color: darkslategray;
+    color: #fca53a;
     text-decoration: none;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -77,20 +90,20 @@ pre {
 .marquee {
     width: 100%;
     line-height: 50px;
-    background-color: gainsboro;
+    background-color: #678689;
     white-space: nowrap;
     overflow: hidden;
     box-sizing: border-box;
 }
-.marquee p {
-	font-size: 25px;
-    font-weight: bold;
-    color: darkslategray;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    display: inline-block;
-    padding-left: 100%;
-    animation: marquee 12s linear infinite;
-}
+    .marquee p {
+        font-size: 25px;
+        font-weight: bold;
+        color: #2c3e50;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        display: inline-block;
+        padding-left: 100%;
+        animation: marquee 12s linear infinite;
+    }
 @keyframes marquee {
     0%   { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
@@ -98,7 +111,7 @@ pre {
 
 .divider {
     height: 2px;
-    background: linear-gradient(to right, gainsboro, darkslategray, gainsboro);
+    background: linear-gradient(to right,#678689, darkslategray, black, darkslategray, #678689);
 }
 
 /* Header Styling */
@@ -126,7 +139,7 @@ header {
 
 /* Section Styling */
 section {
-    background-color: gainsboro;
+    background-color: #678689;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
