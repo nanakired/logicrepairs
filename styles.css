@@ -21,14 +21,14 @@ body {
 }
 
     .menu a {
-        font-size: 20px;
+        font-size: 17px;
         color: #678689;
         text-decoration: none;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
         .menu a:hover, a:focus {
-            font-size: 20px;
+            font-size: 17px;
             color: #2d8783;
             text-decoration: underline;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
