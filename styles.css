@@ -30,7 +30,7 @@ body {
         .menu a:hover, a:focus {
             font-size: 17px;
             color: #2d8783;
-            text-decoration: underline;
+            text-decoration: none;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
