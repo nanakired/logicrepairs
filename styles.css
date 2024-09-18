@@ -21,7 +21,7 @@ body {
 }
 
     .menu a {
-        font-family: liberation sans narrow;
+        font-family: impact;
         font-size: 22px;
         color: #678689;
         text-decoration: none;
@@ -29,7 +29,7 @@ body {
     }
 
         .menu a:hover, a:focus {
-            font-family: liberation sans narrow;
+            font-family: impact;
             font-size: 22px;
             color: #2d8783;
             text-decoration: none;
