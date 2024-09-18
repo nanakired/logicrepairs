@@ -116,7 +116,7 @@ pre {
 
 /* Header Styling */
 header {
-    background: linear-gradient(to right, gainsboro ,darkslategray, black, darkslategray, gainsboro);
+    background: linear-gradient(to right, #678689 ,darkslategray, black, darkslategray, #678689);
     padding: 10px;
     border-radius: 8px;
     text-align: center;
