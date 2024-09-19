@@ -133,7 +133,7 @@ header {
     box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
     background-position: left top;
     background-size: cover;
-    animation: header 2s linear 1;
+    
 }
 
     header h1 {
