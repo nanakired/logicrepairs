@@ -133,7 +133,6 @@ header {
     box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
     background-position: left top;
     background-size: cover;
-    
 }
 
     header h1 {
@@ -150,7 +149,7 @@ header {
 
 @keyframes header {
     0% {
-        transform: translate(0, 50%);
+        transform: translate(0, -120%);
     }
 
     100% {
@@ -179,6 +178,10 @@ section {
     box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
 }
 
+    #services .service:hover {
+        animation: service 1s linear 1;
+    }
+
     #services .service h3 {
         position: absolute;
         top: 10px;
@@ -206,6 +209,16 @@ section {
         height: auto;
         object-fit: fill;
     }
+
+@keyframes service {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(10%, 0);
+    }
+}
 
 /* Form Styling */
 form {
