@@ -98,6 +98,7 @@ pre {
     overflow: hidden;
     box-sizing: border-box;
 }
+
     .marquee p {
         font-size: 25px;
         font-weight: bold;
@@ -107,9 +108,15 @@ pre {
         padding-left: 100%;
         animation: marquee 12s linear infinite;
     }
+
 @keyframes marquee {
-    0%   { transform: translate(0, 0); }
-    100% { transform: translate(-100%, 0); }
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-100%, 0);
+    }
 }
 /* Divider Settings */
 .divider {
@@ -119,8 +126,8 @@ pre {
 
 /* Header Styling */
 header {
-    background: linear-gradient(to right, #678689 ,darkslategray, black, darkslategray, #678689);
-    padding: 10px;
+    background: linear-gradient(to right, #678689,darkslategray, black, darkslategray, #678689);
+    padding: 15px;
     border-radius: 8px;
     text-align: center;
     box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
@@ -129,7 +136,7 @@ header {
 }
 
     header h1 {
-        font-size: 36px;
+        font-size: 34px;
         color: white;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
@@ -161,36 +168,33 @@ section {
     box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
 }
 
-        #services .service h3 {
-	        position: absolute;
-            top: 10px;
-            left: 10px;
-            color: white;
-            font-size: 24px;
-            font-weight: bold;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
+    #services .service h3 {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
 
-	 #services .service p {
-	        position: absolute;
-            top: 75px;
-            left: 20px;
-            color: snow;
-            font-size: 14px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-	        padding: 10px;
-        }
+    #services .service p {
+        position: absolute;
+        top: 75px;
+        left: 20px;
+        color: snow;
+        font-size: 15px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
 
-
-     #services .service img {
-	    border: 1px solid #ddd;
-    	border-radius: 8px;
-	    width: 100%;
-        height: 100%;
+    #services .service img {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        width: auto;
+        height: auto;
         object-fit: fill;
-        }
-
-
+    }
 
 /* Form Styling */
 form {
@@ -220,9 +224,9 @@ input[type="submit"] {
     margin-top: 20px;
 }
 
-input[type="submit"]:hover {
-    background-color: #e74c3c;
-}
+    input[type="submit"]:hover {
+        background-color: #e74c3c;
+    }
 
 /* Footer Styling */
 footer {
