@@ -23,7 +23,7 @@ body {
     .menu a {
         font-family: 'Arial', sans-serif;
         font-size: 16px;
-        color: #678689;
+        color: white;
         text-decoration: none;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
@@ -31,7 +31,7 @@ body {
         .menu a:hover, a:focus {
             font-family: 'Arial', sans-serif;
             font-size: 16px;
-            color: #2d8783;
+            color: #678689;
             text-decoration: none;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
@@ -39,7 +39,7 @@ body {
 .menu p {
         font-family: 'Arial', sans-serif;
         font-size: 16px;
-        color: #678689;
+        color: white;
         text-decoration: none;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
