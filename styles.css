@@ -44,6 +44,16 @@ body {
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 
 header, section, footer {
     margin-bottom: 20px;
