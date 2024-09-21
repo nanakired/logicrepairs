@@ -21,20 +21,29 @@ body {
 }
 
     .menu a {
-        font-family: impact;
-        font-size: 17px;
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
         color: #678689;
         text-decoration: none;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
         .menu a:hover, a:focus {
-            font-family: impact;
-            font-size: 17px;
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
             color: #2d8783;
             text-decoration: none;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
+
+.menu p {
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        color: #678689;
+        text-decoration: none;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
 
 header, section, footer {
     margin-bottom: 20px;
@@ -178,8 +187,8 @@ section {
     box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
 }
 
-    #services .service:hover {
-        animation: service 1s linear 1;
+    #services .service:hover, #services .service:focus {
+        animation: service 0.2s linear 1;
     }
 
     #services .service h3 {
