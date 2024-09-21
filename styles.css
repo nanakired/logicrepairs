@@ -184,6 +184,15 @@ section {
     box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
 }
 
+@keyframes section {
+    0% {
+        transform: translate(-120%, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
 
 #services .service {
     position: relative;
