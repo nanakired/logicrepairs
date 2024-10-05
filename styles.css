@@ -9,20 +9,20 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background-color: #36474d;
-    padding: 15px;
+    padding: 2px;
 }
 
 .menu {
     display: flex;
     justify-content: space-around;
     background-color: #36474d;
-    padding: 10px;
-    margin: 10px;
+    padding: 0px;
+    margin: 0px;
 }
 
     .menu a {
         font-family: 'Arial', sans-serif;
-        font-size: 16px;
+        font-size: 20px;
         color: white;
         text-decoration: none;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -30,7 +30,7 @@ body {
 
         .menu a:hover, a:focus {
             font-family: 'Arial', sans-serif;
-            font-size: 16px;
+            font-size: 20px;
             color: #678689;
             text-decoration: none;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -54,9 +54,8 @@ body {
     }
 }
 
-
 header, section, footer {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 h1, h2 {
@@ -69,12 +68,20 @@ p {
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    color: snow;
+    list-style-type: circle;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0px;
 }
 
 li {
-    margin-bottom: 10px;
+    color: snow;
+    list-style-type: circle;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0px;
+    margin-bottom: 0px;
 }
 
 a {
@@ -90,6 +97,28 @@ a {
         text-decoration: underline;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
+
+/* Frames layout */
+.head {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.view {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 100%;
+}
+
+.foot {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
 
 /* Code section Settings */
 pre {
@@ -146,12 +175,13 @@ pre {
 /* Header Styling */
 header {
     background: linear-gradient(to right, #678689,darkslategray, black, darkslategray, #678689);
-    padding: 15px;
+    padding: 0px;
+    margin: 0px;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
     background-position: left top;
     background-size: cover;
+    box-shadow: 2px 3px 10px rgba(0 0 0 / 0.6);
 }
 
     header h1 {
@@ -179,9 +209,9 @@ header {
 /* Section Styling */
 section {
     background-color: #678689;
-    padding: 20px;
+    padding: 10px;
+    margin: 2px;
     border-radius: 8px;
-    box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
 }
 
 @keyframes section {
@@ -199,11 +229,11 @@ section {
     background-color: white;
     border: 0px solid #ddd;
     border-radius: 8px;
-    padding: 10px;
-    margin: 10px;
-    width: calc(100% - 20px);
+    padding: 20px;
+    margin: 20px;
+    width: calc(100% - 40px);
     height: 240px;
-    box-shadow: 2px 3px 10px rgb(0 0 0 / 0.6);
+    box-shadow: 2px 3px 10px rgba(0 0 0 / 0.6);
 }
 
     #services .service:hover, #services .service:focus {
