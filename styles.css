@@ -39,7 +39,7 @@ body {
 .menu p {
         font-family: 'Arial', sans-serif;
         font-size: 18px;
-        color: gray;
+        color: springgreen;
         text-decoration: none;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
@@ -94,7 +94,7 @@ a {
     a:hover, a:focus {
         font-size: 16px;
         color: crimson;
-        text-decoration: underline;
+        text-decoration: none;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
