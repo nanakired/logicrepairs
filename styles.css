@@ -106,10 +106,10 @@ li {
 
 .view {
     position: absolute;
-    top: 135px;
+    top: 130px;
     left: 0px;
     width: 100%;
-    height: calc(100% - 135px);
+    height: calc(100% - 138px);
 }
 
 /* Code section Settings */
