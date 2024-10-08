@@ -20,23 +20,15 @@ body {
     margin: 0px;
 }
 
-    .menu a {
+    .menu a:link, a:visited {
         font-family: 'Arial', sans-serif;
         font-size: 20px;
         color: white;
         text-decoration: none;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
-
+       
         .menu a:hover, a:focus {
-            font-family: 'Arial', sans-serif;
-            font-size: 20px;
-            color: #678689;
-            text-decoration: none;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-
-        .menu a:active {
             font-family: 'Arial', sans-serif;
             font-size: 20px;
             color: #678689;
