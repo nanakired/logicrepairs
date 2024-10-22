@@ -5,13 +5,13 @@
     box-sizing: border-box;
 }
 
-@media only screen and (min-width: 1025px) {
+@media screen and (max-width: 768px) {
     .mobile-only {
         display: none !important;
     }
 }
 
-@media only screen and (max-width: 1026px) {
+@media screen and (min-width: 1200px) {
     .desktop-only {
         display: none !important;
     }
