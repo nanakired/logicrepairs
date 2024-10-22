@@ -161,12 +161,12 @@ pre {
 /* Divider Settings */
 .divider {
     height: 2px;
-    background: linear-gradient(to right,#678689, darkslategray, black, darkslategray, #678689);
+    background: linear-gradient(to right,#678689, darkslategray, darkslategray, #678689);
 }
 
 /* Header Styling */
 header {
-    background: linear-gradient(to right, #678689,darkslategray, black, darkslategray, #678689);
+    background: linear-gradient(to right, #678689,darkslategray, darkslategray, #678689);
     padding: 0px;
     margin: 0px;
     margin-bottom: 10px;
