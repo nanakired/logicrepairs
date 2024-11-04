@@ -159,7 +159,7 @@ a {
     ul {
         color: snow;
         list-style-type: circle;
-        font-size: 15px;
+        font-size: 12px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         padding: 0px;
     }
@@ -176,7 +176,7 @@ a {
     .listsection {
         position: relative;
         top: auto;
-        left: 35px;
+        left: 25px;
     }
 
     /* Frames layout */
