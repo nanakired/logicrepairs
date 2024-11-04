@@ -173,6 +173,12 @@ a {
         margin-bottom: 0px;
     }
 
+    .listsection {
+        position: relative;
+        top: auto;
+        left: 80px;
+    }
+
     /* Frames layout */
     .head {
         position: absolute;
