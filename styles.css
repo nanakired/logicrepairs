@@ -173,10 +173,22 @@ a {
         margin-bottom: 0px;
     }
 
+/*
+    Style all <a> tags that are
+    contained within <p> tags:
+  */
+p a {
+    font-weight: bold;
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+}
+
     .listsection {
         position: relative;
         top: auto;
-        left: 25px;
+        left: 35px;
     }
 
     /* Frames layout */
@@ -316,7 +328,7 @@ a {
     }
 
         #services .service:hover, #services .service:focus {
-            -webkit-animation: service forwards 2s;
+            -webkit-animation: service forwards 1s;
         }
 
         #services .service h3 {
@@ -379,7 +391,7 @@ a {
         }
 
         100% {
-            width: calc(100% - 150px);
+            width: calc(100% - 450px);
             height: 220px;
         }
     }
