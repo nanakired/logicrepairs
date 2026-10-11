@@ -3,63 +3,75 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services – NanakiRed</title>
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <section>
-        <div class="marquee"><p>Building, repairing and cleaning Laptops • Desktop PCs • Mobile Phones • Tablets • Gaming Consoles and Handhelds</p></div>
-    </section>
-    <section id="services">
-        <div class="plcl">
-            <h4>Please click on a section for more information on the services provided</h4>
-        </div>
-        <div class="servicecontain">
-            <a href="pages/mobile.html">
-                <div class="service" style="background-image: url('images/phone_repair.jpg'); background-size: cover;">
-                    <h3>Phone and Tablet Repairs</h3>
-                </div>
-            </a>
-
-            <a href="pages/pc.html">
-                <div class="service" style="background-image: url('images/pcbuilding.jpg'); background-size: cover;">
-                    <h3>PC Building and Repairs</h3>
-                </div>
-            </a>
-
-            <a href="pages/networking.html">
-                <div class="service" style="background-image: url('images/networking.jpg'); background-size: cover;">
-                    <h3>Networking</h3>
-                </div>
-            </a>
-
-            <a href="pages/data.html">
-                <div class="service" style="background-image: url('images/data.jpg'); background-size: cover;">
-                    <h3>Data Recovery</h3>
-                </div>
-            </a>
-
-            <div class="service" style="background-image: url('images/gaming.jpg'); background-size: cover;">
-                <h3>Console repairs</h3>
-            </div>
-
-            <div class="service" style="background-image: url('images/3dprinting.jpg'); background-size: cover;">
-                <h3>3D Printing</h3>
-            </div>
-
-            <a href="pages/software.html">
-                <div class="service" style="background-image: url('images/software.jpg'); background-size: cover;">
-                    <h3>Software Support</h3>
-                </div>
-            </a>
-        </div>
-
+    <section class="intro">
+        <h4>Hover over a service to learn more</h4>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have a question or need a service? Fill out an email and send it to <a href="mailto:logictechrepairs@gmail.com&subject=Mail from the website - Please help!&body=--- Add your message here, don't forget some contact details so I can get back to you ---">logictechrepairs@gmail.com</a> and I will get back to you.  I could make a form and make this bit all snazzy but unfortunately that would require PHP, Ruby, Python or any sort of web-server language which Github Pages and Repositories does not support at this time.</p>
+    <!-- Services grid -->
+    <section class="services-grid">
+        <!-- Phone & Tablet Repairs -->
+        <a href="pages/mobile.html" class="service-card" style="background-image:url('images/phone_repair.jpg');">
+            <div class="service-overlay">
+                <h5>Phone & Tablet Repairs</h5>
+                <p>Screen replacements, battery swaps, water‑damage recovery, and more.</p>
+            </div>
+        </a>
+
+        <!-- PC Building & Repairs -->
+        <a href="pages/pc.html" class="service-card" style="background-image:url('images/pcbuilding.jpg');">
+            <div class="service-overlay">
+                <h5>PC Building & Repairs</h5>
+                <p>Custom builds, component upgrades, diagnostics, and troubleshooting.</p>
+            </div>
+        </a>
+
+        <!-- Networking -->
+        <a href="pages/networking.html" class="service-card" style="background-image:url('images/networking.jpg');">
+            <div class="service-overlay">
+                <h5>Networking</h5>
+                <p>Router setup, Wi‑Fi optimization, network security, and LAN/WAN support.</p>
+            </div>
+        </a>
+
+        <!-- Data Recovery -->
+        <a href="pages/data.html" class="service-card" style="background-image:url('images/data.jpg');">
+            <div class="service-overlay">
+                <h5>Data Recovery</h5>
+                <p>Lost files, corrupted drives, and RAID rebuilds – we get data back safely.</p>
+            </div>
+        </a>
+
+        <!-- Console Repairs -->
+        <a href="pages/consoles.html" class="service-card" style="background-image:url('images/gaming.jpg');">
+            <div class="service-overlay">
+                <h5>Console Repairs</h5>
+                <p>Hardware fixes, controller repairs, firmware updates, and cleaning.</p>
+            </div>
+        </a>
+
+        <!-- 3D Printing -->
+        <a href="pages/3dprint.html" class="service-card" style="background-image:url('images/3dprinting.jpg');">
+            <div class="service-overlay">
+                <h5>3D Printing</h5>
+                <p>Rapid prototyping, custom models, and material support.</p>
+            </div>
+        </a>
+
+        <!-- Software Support -->
+        <a href="pages/software.html" class="service-card" style="background-image:url('images/software.jpg');">
+            <div class="service-overlay">
+                <h5>Software Support</h5>
+                <p>Installation, updates, virus removal, and performance tuning.</p>
+            </div>
+        </a>
     </section>
 
     <footer>

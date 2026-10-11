@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">   <!-- your existing CSS file -->
+    
+    <!-- -------------  NEW CSS  ------------- -->
+    <style>
+        /* Give the image a smooth transition first */
+        .desktop-only,
+        .mobile-only {
+            transition: transform 0.5s ease;
+        }
+
+        /* When the mouse is over the image, start the spin */
+        .desktop-only:hover,
+        .mobile-only:hover {
+            animation: spin 1s linear infinite;   /* 1s = one full spin per second */
+        }
+
+        /* The keyframe definition for a full 360° spin */
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to   { transform: rotate(360deg); }
+        }
+    </style>
+    <!-- -------------  END NEW CSS  ------------- -->
+</head>
+
+<body>
+    <header style="animation: header 2s linear 1 alternate;">
+        <div class="logo">
+            <img src="images/logicrepairsbanner.png"
+                 width="550" height="60"
+                 class="desktop-only" />
+
+            <img src="images/logicrepairslogo.png"
+                 width="60" height="60"
+                 class="mobile-only" />
+        </div>
+    </header>
+</body>
+</html>

@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Full‑Screen Menu</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-    <header style="animation: header 2s linear 1 alternate;">
-        <div ><img src="images/logicrepairsbanner.png" width="750px" height="90px" class="desktop-only"/>
-              <img src="images/logicrepairslogo.png" width="90px" height="90px" class="mobile-only" /></div>
-    </header>
-
-    <div class="menu" style="animation: fadeIn 2s ease-in-out;">
-        <a href="services.html" target="view">Home</a>
-        <p>•</p>
-        <img src="images/logicrepairslogo.png" width="40px" height="40px" />
-        <p>•</p>
-        <a href="pages/about.html" target="view">About</a>
+  <!--  The whole menu wrapper  -->
+  <nav class="menu">
+    <!--  The little “hamburger” icon that stays visible  -->
+    <div class="menu-icon" aria-label="Open menu" tabindex="0">
+      &#9776;
     </div>
 
+    <!--  The list of navigation links  -->
+    <ul class="menu-list">
+      <li>
+        <a href="main.html" target="view">
+          <img id="hme" src="images/Buttons/homebutton.png"
+               alt="Home" class="desktop-only">
+          <img src="images/Buttons/homebuttonmobile.png"
+               alt="Home" class="mobile-only">
+        </a>
+      </li>
+
+      <li>
+        <a href="services.html" target="view">
+          <img id="srv" src="images/Buttons/servicesbutton.png"
+               alt="Services" class="desktop-only">
+          <img src="images/Buttons/servicesbuttonmobile.png"
+               alt="Services" class="mobile-only">
+        </a>
+      </li>
+
+      <li>
+        <a href="pages/about.html" target="view">
+          <img id="abt" src="images/Buttons/aboutbutton.png"
+               alt="About" class="desktop-only">
+          <img src="images/Buttons/aboutbuttonmobile.png"
+               alt="About" class="mobile-only">
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!--  Optional: simple script to close the menu when the user clicks outside of it  -->
+  <script>
+    document.addEventListener('click', (e) => {
+      const menu = document.querySelector('.menu');
+      if (!menu.contains(e.target)) {
+        menu.classList.remove('open');
+      }
+    });
+
+    // Enable keyboard support for the menu icon
+    document.querySelector('.menu-icon').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        document.querySelector('.menu').classList.toggle('open');
+      }
+    });
+  </script>
 </body>
 </html>
